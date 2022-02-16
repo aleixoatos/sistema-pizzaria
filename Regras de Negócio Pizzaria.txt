@@ -1,0 +1,24 @@
+﻿Regras de Negócio:
+
+RN1 O sistema deve registrar os pedidos dos clientes;
+RN2 Se um cliente comprar a partir de 2 pizzas, ele deve ganhar de brinde 1 refrigerante;
+RN3 Estamos sem Atum esse mês, então o sistema deve rejeitar pedidos para pizza de atum;
+
+RN4 O Sistema deve gerar um relatório de venda em arquivo .txt com:
+
+Nome do cliente;
+Data do pedido;
+Ítens do Pedido;
+Valor Total do Pedido;
+
+Total de Pedidos no Dia e Valor Total de Pedidos no Dia;
+
+
+RN5 Se o cliente solicitar borda recheada, o sistema deve somar o valor de R$ 3,00 ao custo final do pedido;
+RN6 Toda vez que houver um pedido, o sistema deve atualizar os estoques de massas de Pizza e Refrigerantes, que iniciam com 10 UND de cada. 
+Se o pedido for maior do que a quantidade disponível em estoque, o sistema deve rejeitar o pedido.
+RN7 Sempre que o estoque de massas e refrigerantes chegar a 3 UND de cada, o sitema deve solicitar aos fornecedores abastastecer o estoque com mais 10 UND de cada, 
+e informar o gestor da padaria sobre o estoque atual. 
+
+
+RN8 A Pizzaria abre às 10h, fecha às 23h, e fica fechada em dias de Segunda. Pedidos na segunda e fora de horário devem ser recusados.
